@@ -1,0 +1,37 @@
+/* html {
+    background-color: black;
+} */
+header {
+    height: calc(100vh - 32px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header img {
+    width: 100%;
+}
+
+.schedule-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    color: #000;
+
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: 1px;
+
+    padding: 16px 0;
+    margin: 50px 0 0;
+
+    transition: all 0.4s ease;
+}
+
+.schedule-line:hover {
+    cursor: pointer;
+    letter-spacing: 8px;
+}
